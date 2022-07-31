@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amanu\\source\\repos\\IR\\IR\\IR.csproj",
+      "projectUniqueName": "C:\\Users\\amanu\\OneDrive\\Documents\\GitHub\\Information-Retrieval\\IR\\IR\\IR.csproj",
       "projectName": "IR",
-      "projectPath": "C:\\Users\\amanu\\source\\repos\\IR\\IR\\IR.csproj",
+      "projectPath": "C:\\Users\\amanu\\OneDrive\\Documents\\GitHub\\Information-Retrieval\\IR\\IR\\IR.csproj",
       "packagesPath": "C:\\Users\\amanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amanu\\source\\repos\\IR\\IR\\obj\\",
+      "outputPath": "C:\\Users\\amanu\\OneDrive\\Documents\\GitHub\\Information-Retrieval\\IR\\IR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
