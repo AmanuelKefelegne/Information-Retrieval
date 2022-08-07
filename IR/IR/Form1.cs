@@ -860,10 +860,10 @@
 
         void Affixes(char[] arr)
         { 
-            //Suffix(arr);
-            //Prefix(arr);
-            //Infix(arr);
-            //display(arr);
+            Suffix(arr);
+            Prefix(arr);
+            Infix(arr);
+           
         }
 
         void Suffix(char[] arr)
@@ -963,7 +963,7 @@
                     
                     stemword[i] = arr[i];
                     
-                   // stemword[i] = arr[i];
+                   
                 }
              
                 display(stemword, arr.Length - 1);
