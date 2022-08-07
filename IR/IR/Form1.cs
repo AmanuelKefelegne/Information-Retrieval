@@ -861,7 +861,7 @@
         void Affixes(char[] arr)
         { 
             //Suffix(arr);
-            Prefix(arr);
+            //Prefix(arr);
             //Infix(arr);
             //display(arr);
         }
@@ -908,6 +908,15 @@
                 }
                 display(stemword, arr.Length - 1);
             }
+            if (arr[arr.Length - 1] == 'ው' && arr[arr.Length - 2] == 'ቸ' && arr[arr.Length - 3] == 'ኣ')
+            {
+                stemword = new char[arr.Length - 3];
+                for (int i = 0; i < arr.Length - 3; i++)
+                {
+                    stemword[i] = arr[i];
+                }
+                display(stemword, arr.Length - 3);
+            }
 
         }
 
@@ -919,7 +928,7 @@
                 stemword = new char[arr.Length - 1];
                 for (int i = 0; i < arr.Length - 1; i++)
                 {
-                    //stemword[i] = arr[i];
+                    stemword[i] = arr[i+1];
                 }
                 display(stemword, arr.Length - 1);
             }
@@ -928,7 +937,7 @@
                 stemword = new char[arr.Length - 2];
                 for (int i = 0; i < arr.Length - 2; i++)
                 {
-                    //stemword[i] = arr[i];
+                    stemword[i] = arr[i+2];
                 }
                 display(stemword, arr.Length - 2);
             }
@@ -937,7 +946,7 @@
                 stemword = new char[arr.Length - 3];
                 for (int i = 0; i < arr.Length - 3; i++)
                 {
-                   // stemword[i] = arr[i];
+                    stemword[i] = arr[i+3];
                 }
                 display(stemword, arr.Length - 3);
             }
@@ -946,7 +955,7 @@
         void Infix(char[] arr)
         {
             char[] stemword;
-            if (arr[1] == 'ና' )
+            if (arr[1] == 'ና' || arr[1] == 'ባ' || arr[1] == 'ላ' || arr[1] == 'ጫ' || arr[1] == 'ጇ')
             {
                 stemword = new char[arr.Length + 1];
                 for (int i = 2; i < arr.Length + 1; i++)
