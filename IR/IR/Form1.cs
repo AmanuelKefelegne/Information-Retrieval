@@ -17,19 +17,9 @@
             public string ሳድስ;
             public string ሳብዕ;
             public string ዲቃላ;
-        }
+        };
 
-        public struct word
-        {
-            public string ግዕዝ;
-            public string ካብዕ;
-            public string ሳልስ;
-            public string ሪብዕ;
-            public string ሀምስ;
-            public string ሳድስ;
-            public string ሳብዕ;
-            public string ዲቃላ;
-        }
+        public string word;
 
         private void buttonሀ_Click(object sender, EventArgs e)
         {
@@ -585,280 +575,248 @@
         {
             panel.Visible = false;
             textBox1.Text += buttonግዕዝ.Text;
-            wordadd(buttonግዕዝ.Text, "ግዕዝ");
+            wordadd(buttonግዕዝ.Text);
         }
 
         private void buttonካብዕ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonካብዕ.Text;
-            wordadd(buttonካብዕ.Text, "ካብዕ");
+            wordadd(buttonሳድስ.Text + "ኡ");
         }
 
         private void buttonሳልስ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonሳልስ.Text;
-            wordadd(buttonሳልስ.Text, "ሳልስ");
+            wordadd(buttonሳልስ.Text);
         }
 
         private void buttonሪብዕ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonሪብዕ.Text;
-            wordadd(buttonሪብዕ.Text, "ሪብዕ");
+            wordadd(buttonሪብዕ.Text);
         }
 
         private void buttonሀምስ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonሀምስ.Text;
-            wordadd(buttonሀምስ.Text, "ሀምስ");
+            wordadd(buttonሀምስ.Text);
         }
 
         private void buttonሳድስ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonሳድስ.Text;
-            wordadd(buttonሳድስ.Text, "ሳድስ");
+            wordadd(buttonሳድስ.Text);
         }
 
         private void buttonሳብዕ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonሳብዕ.Text;
-            wordadd(buttonሳብዕ.Text, "ሳብዕ");
+            wordadd(buttonሳድስ.Text + "ኦ");
         }
 
         private void buttonዲቃላ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonዲቃላ.Text;
-            wordadd(buttonዲቃላ.Text, "ዲቃላ");
+            wordadd(buttonሳድስ.Text + "ኧ");
         }
 
         private void buttonቈ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቈ.Text;
-            wordadd(buttonቈ.Text, "ዲቃላ");
         }
 
         private void buttonቊ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቊ.Text;
-            wordadd(buttonቊ.Text, "ዲቃላ");
         }
 
         private void buttonቋ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቋ.Text;
-            wordadd(buttonቋ.Text, "ዲቃላ");
         }
 
         private void buttonቌ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቌ.Text;
-            wordadd(buttonቌ.Text, "ዲቃላ");
         }
 
         private void buttonቍ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቍ.Text;
-            wordadd(buttonቍ.Text, "ዲቃላ");
         }
 
         private void buttonቘ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቘ.Text;
-            wordadd(buttonቘ.Text, "ዲቃላ");
         }
 
         private void buttonቚ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቚ.Text;
-            wordadd(buttonቚ.Text, "ዲቃላ");
         }
 
         private void buttonቛ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቛ.Text;
-            wordadd(buttonቛ.Text, "ዲቃላ");
         }
 
         private void buttonቜ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቜ.Text;
-            wordadd(buttonቜ.Text, "ዲቃላ");
         }
 
         private void buttonቝ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonቝ.Text;
-            wordadd(buttonቝ.Text, "ዲቃላ");
         }
 
         private void buttonኊ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኊ.Text;
-            wordadd(buttonኊ.Text, "ዲቃላ");
         }
 
         private void buttonኋ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኋ.Text;
-            wordadd(buttonኋ.Text, "ዲቃላ");
         }
 
         private void buttonኌ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኌ.Text;
-            wordadd(buttonኌ.Text, "ዲቃላ");
         }
 
         private void buttonኍ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኍ.Text;
-            wordadd(buttonኍ.Text, "ዲቃላ");
         }
 
         private void buttonኰ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኰ.Text;
-            wordadd(buttonኰ.Text, "ዲቃላ");
         }
 
         private void buttonኲ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኲ.Text;
-            wordadd(buttonኲ.Text, "ዲቃላ");
         }
 
         private void buttonኳ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኳ.Text;
-            wordadd(buttonኳ.Text, "ዲቃላ");
         }
 
         private void buttonኴ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኴ.Text;
-            wordadd(buttonኴ.Text, "ዲቃላ");
         }
 
         private void buttonኵ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonኵ.Text;
-            wordadd(buttonኵ.Text, "ዲቃላ");
         }
 
         private void buttonዀ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonዀ.Text;
-            wordadd(buttonዀ.Text, "ዲቃላ");
         }
 
         private void buttonዂ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonዂ.Text;
-            wordadd(buttonዂ.Text, "ዲቃላ");
         }
 
         private void buttonዃ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonዃ.Text;
-            wordadd(buttonዃ.Text, "ዲቃላ");
         }
 
         private void buttonዄ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonዄ.Text;
-            wordadd(buttonዄ.Text, "ዲቃላ");
         }
 
         private void buttonዅ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonዅ.Text;
-            wordadd(buttonዅ.Text, "ዲቃላ");
         }
 
         private void buttonጐ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonጐ.Text;
-            wordadd(buttonጐ.Text, "ዲቃላ");
         }
 
         private void buttonጒ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonጒ.Text;
-            wordadd(buttonጒ.Text, "ዲቃላ");
         }
 
         private void buttonጓ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonጓ.Text;
-            wordadd(buttonጓ.Text, "ዲቃላ");
         }
 
         private void buttonጔ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonጔ.Text;
-            wordadd(buttonጔ.Text, "ዲቃላ");
         }
 
         private void buttonጕ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonጕ.Text;
-            wordadd(buttonጕ.Text, "ዲቃላ");
         }
 
         private void buttonፘ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonፘ.Text;
-            wordadd(buttonፘ.Text, "ዲቃላ");
         }
 
         private void buttonፙ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonፙ.Text;
-            wordadd(buttonፙ.Text, "ዲቃላ");
         }
 
         private void buttonፚ_Click(object sender, EventArgs e)
         {
             panel.Visible = false;
             textBox1.Text += buttonፚ.Text;
-            wordadd(buttonፚ.Text, "ዲቃላ");
         }
 
         private void buttonspace_Click(object sender, EventArgs e)
@@ -882,70 +840,28 @@
             fm.ሳድስ = buttonሳድስ.Text;
             fm.ሳብዕ = buttonሳብዕ.Text;
             fm.ዲቃላ = buttonዲቃላ.Text;
-            //textBox2.Text = fm.ግዕዝ;
-            //textBox2.Text += fm.ካብዕ;
-            //textBox2.Text += fm.ሳልስ;
-            //textBox2.Text += fm.ሪብዕ;
-            //textBox2.Text += fm.ሀምስ;
-            //textBox2.Text += fm.ሳድስ;
-            //textBox2.Text += fm.ሳብዕ;
-            //textBox2.Text += fm.ዲቃላ;
-
         }
 
-        void wordadd(string st , string pos)
+        void wordadd(string st )
         {
-            word wd;
-            if(pos== "ግዕዝ")
-            {
-                wd.ግዕዝ = st;
-            }
-            if(pos== "ካብዕ")
-            {
-                wd.ካብዕ = st;
-            }
-            if (pos == "ሳልስ")
-            {
-                wd.ሳልስ = st;
-            }
-            if (pos == "ሪብዕ")
-            {
-                wd.ሪብዕ = st;
-            }
-            if (pos == "ሀምስ")
-            {
-                wd.ሀምስ = st;
-            }
-            if (pos == "ሳድስ")
-            {
-                wd.ሳድስ = st;
-            }
-            if (pos == "ሳብዕ")
-            {
-                wd.ሳብዕ = st;
-            }
-            if (pos == "ዲቃላ")
-            {
-                wd.ዲቃላ = st;
-            }
+            word += st;
         }
-
         private void buttonstemmer_Click(object sender, EventArgs e)
         {
-            string[] words = textBox1.Text.Split(' ');
+            //textBox2.Text = word;
+            string[] words = word.Split(' ');
             for (int i=0; i<words.Count();i++)
             {
-
                char[] arr = words[i].ToCharArray();
-                Affixes(arr);
+               Affixes(arr);
             }
             textBox1.Clear();
         }
 
         void Affixes(char[] arr)
         { 
-              Suffix(arr);
-            //Prefix(arr);
+            //Suffix(arr);
+            Prefix(arr);
             //Infix(arr);
             //display(arr);
         }
@@ -962,26 +878,87 @@
                 }
                 display(stemword, arr.Length - 2); 
             }
-            if (arr[arr.Length-1]== 'ች' && arr[arr.Length-2]== 'ዎ')
+            if (arr[arr.Length-1]== 'ች' && arr[arr.Length-2]== 'ኦ')
             {
-                stemword = new char[arr.Length - 2];
-                for (int i = 0; i < arr.Length - 2; i++)
+                if ( arr[arr.Length - 3] == 'ው')
+                {
+                    stemword = new char[arr.Length - 3];
+                    for (int i = 0; i < arr.Length - 3; i++)
+                    {
+                        stemword[i] = arr[i];
+                    }
+                    display(stemword, arr.Length - 3);
+                }
+                else
+                {
+                    stemword = new char[arr.Length - 2];
+                    for (int i = 0; i < arr.Length - 2; i++)
+                    {
+                        stemword[i] = arr[i];
+                    }
+                    display(stemword, arr.Length - 2);
+                }
+            }
+            if (arr[arr.Length - 1] == 'ኡ' || arr[arr.Length - 1] == 'ኧ')
+            {
+                stemword = new char[arr.Length - 1];
+                for (int i = 0; i < arr.Length - 1; i++)
                 {
                     stemword[i] = arr[i];
                 }
-                display(stemword, arr.Length - 2);
+                display(stemword, arr.Length - 1);
             }
-            
+
         }
 
         void Prefix(char[] arr)
         {
-
+            char[] stemword;
+            if (arr[0] == 'ከ' || arr[0] == 'በ' || arr[0] == 'የ')
+            {
+                stemword = new char[arr.Length - 1];
+                for (int i = 0; i < arr.Length - 1; i++)
+                {
+                    //stemword[i] = arr[i];
+                }
+                display(stemword, arr.Length - 1);
+            }
+            if (arr[0] == 'ስ' && arr[1] == 'ለ')
+            {
+                stemword = new char[arr.Length - 2];
+                for (int i = 0; i < arr.Length - 2; i++)
+                {
+                    //stemword[i] = arr[i];
+                }
+                display(stemword, arr.Length - 2);
+            }
+            if (arr[0] == 'እ' && arr[1] == 'ን' && arr[2] == 'ደ')
+            {
+                stemword = new char[arr.Length - 3];
+                for (int i = 0; i < arr.Length - 3; i++)
+                {
+                   // stemword[i] = arr[i];
+                }
+                display(stemword, arr.Length - 3);
+            }
         }
 
         void Infix(char[] arr)
         {
-
+            char[] stemword;
+            if (arr[1] == 'ና' )
+            {
+                stemword = new char[arr.Length + 1];
+                for (int i = 2; i < arr.Length + 1; i++)
+                {
+                    
+                    stemword[i] = arr[i];
+                    
+                   // stemword[i] = arr[i];
+                }
+             
+                display(stemword, arr.Length - 1);
+            }
         }
 
         void display(char[] stemword,int arrlength)
@@ -993,4 +970,4 @@
         }
 
     }
-}
+} 
